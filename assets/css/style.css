@@ -613,7 +613,7 @@ body.nav-active { overflow: hidden; }
   #STATS
 \*-----------------------------------*/
 
-.stats { background-image: linear-gradient(to bottom, var(--white) 50%, var(--cultured) 50%); }
+.stats { background-image: linear-gradient(to bottom, var(--white) 50%, var(--cultured) 50%); margin-block: 2rem; }
  /* Old code */
 /* .stats-card {
   display: grid;
