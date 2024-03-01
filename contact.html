@@ -29,6 +29,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
 
   <!-- 
     - preload images
@@ -152,19 +153,53 @@
       -->
 
       <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.jpg')">
-        <div class="container">
+      style="background-image: url('./assets/images/hero-bg.jpg')">
+      <div class="container">
 
-          <div class="hero-content">
+        <div class="">
 
-            <h1 class="h1 hero-title">This Page is Under Maintanance</h1>
+          <h1 class="h1 hero-title">Contact Us</h1>
+          <div>
 
-            <p class="hero-text">
-              We are a extremely sorry for the inconvenience caused.
-            </p>
+         
+          <form action="" class="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" name="name" id="name" class="input-field" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" name="email" id="email" class="input-field" required>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="tel" name="phone" id="phone" class="input-field" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <div>
+                <textarea name="message" id="message" class="input-field" required rows="10"></textarea>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary" type="submit">Submit</button>    
+            </div>
+          </form>
+
+</div>
+
+         
 
         </div>
-      </section>
+
+        <div class="address-maps">
+          <address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.93256988871!2d85.15197637447223!3d25.60715681497551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58f31573f8ab%3A0x8e60d1095caa60d5!2sJagjiwan%20Ln%2C%20East%20Lohanipur%2C%20Lohanipur%2C%20Patna%2C%20Bihar%20800003!5e0!3m2!1sen!2sin!4v1709274553735!5m2!1sen!2sin" width="100%" height="480" style="border:0;border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </address>
+        </div>
+
+      </div>
+    </section>
 
       <!-- 
         - #CTA

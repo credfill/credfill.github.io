@@ -1,3 +1,17 @@
+.section{
+    padding: 20px 0;
+    margin: 50px 0 0 0 0;
+}
+
+
+
+.section:nth-child(1){
+    padding-block-start: calc(var(--section-padding) + 10px);
+    padding-block-end: calc(var(--section-padding) - 30px);
+    margin: 0;
+}
+
+
 .section .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
