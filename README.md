@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Contact
 
-If you want to contact with me you can reach me at (https://www.twitter.com/nikkuveejar.
+Vikash@credfill.com
 
 ### License
 
